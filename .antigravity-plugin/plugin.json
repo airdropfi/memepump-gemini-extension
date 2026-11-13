@@ -1,0 +1,27 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "memepump",
+  "displayName": "MemePump Token Safety",
+  "version": "1.0.0",
+  "description": "MemePump is a read-only Solana token safety checker for AI assistants: it returns a token's risk score, honeypot signal, liquidity-lock status, mint and freeze authority, holder concentration and wallet clusters over MCP. It cannot trade or move funds and never asks for a wallet key. Output is informational, not financial advice.",
+  "logo": "assets/icon.png",
+  "suggestedPrompts": [
+    "Is this Solana token a rug? Mint: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "Who holds most of this token, and do any wallets look linked?",
+    "Explain what a freeze authority means in a token safety report"
+  ],
+  "author": {
+    "name": "MemePump",
+    "url": "https://memepump.org"
+  },
+  "homepage": "https://memepump.org/mcp",
+  "repository": "https://github.com/airdropfi/memepump-gemini-extension",
+  "license": "MIT",
+  "keywords": [
+    "solana",
+    "token-safety",
+    "rug-pull",
+    "mcp",
+    "memepump"
+  ]
+}

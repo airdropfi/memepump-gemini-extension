@@ -1,0 +1,8 @@
+description = "Explain what a token safety report signal means (read-only, no lookup)"
+prompt = """
+Explain a signal from a Solana token safety report. This is read-only and makes no token lookup. Signal from the user (or all if none): {{args}}
+
+1. Call `explain_risk_signals`.
+2. Explain the requested signal (or each signal briefly) in plain words, including what it cannot show.
+3. Say that reports are informational, not financial advice.
+"""

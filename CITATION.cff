@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you refer to this software, please cite it as below."
+type: software
+title: "MemePump extension for Gemini CLI"
+abstract: "MemePump is a read-only Solana token safety checker for AI assistants: it returns a token's risk score, honeypot signal, liquidity-lock status, mint and freeze authority, holder concentration and wallet clusters over MCP. It cannot trade or move funds and never asks for a wallet key. Output is informational, not financial advice."
+authors:
+  - name: "MemePump"
+    website: "https://memepump.org"
+repository-code: "https://github.com/airdropfi/memepump-gemini-extension"
+url: "https://memepump.org/mcp"
+license: MIT
+version: 1.0.0
+keywords:
+  - mcp
+  - model-context-protocol
+  - mcp-server
+  - solana
+  - token-safety
+  - rug-pull
+  - honeypot
+  - gemini-cli

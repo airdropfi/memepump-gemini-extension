@@ -1,0 +1,11 @@
+{
+  "name": "memepump",
+  "version": "1.0.0",
+  "description": "Read-only Solana token safety checks for Gemini CLI: risk score, honeypot signal, liquidity lock, mint and freeze authority and top holders. No trading, no wallet keys; not financial advice.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "memepump": {
+      "httpUrl": "https://memepump.org/api/mcp"
+    }
+  }
+}

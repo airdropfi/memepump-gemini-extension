@@ -1,0 +1,9 @@
+description = "List the largest holders of a Solana token and any wallet clusters (read-only)"
+prompt = """
+List the top holders of the Solana token the user named. This is read-only and gives no financial advice. Mint and optional count from the user: {{args}}
+
+1. If no valid mint (base58, 32 to 44 characters) was given, ask for it.
+2. Call `get_token_holders` with `mint` and, if the user gave a count, `limit` (1 to 25).
+3. Show rank, address, share of supply, holder type and any cluster flags as returned, and the top-10 concentration. Exchange and pool wallets can appear near the top.
+4. End by saying the result is informational, not financial advice.
+"""

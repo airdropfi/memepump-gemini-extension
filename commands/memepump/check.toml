@@ -1,0 +1,10 @@
+description = "Check a Solana token's safety by mint address (read-only)"
+prompt = """
+Check the Solana token the user named. This is read-only and gives no financial advice. Mint from the user: {{args}}
+
+1. If no valid mint (base58, 32 to 44 characters) was given, ask for it.
+2. Call `check_token_safety` with `mint`.
+3. Show the risk level and score, honeypot signal, liquidity lock, mint and freeze authority, top-holder concentration and the warnings, exactly as returned, with the source and `checked_at`.
+4. End by saying the result is informational, not financial advice, and that a low score is not a guarantee.
+5. If the tool returns an error, say so and do not invent a verdict.
+"""
